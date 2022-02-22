@@ -1,0 +1,78 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  /* background: pink; */
+}
+
+/* @media (min-width: 650px) {
+  body {
+    background: orange;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 649px) {
+  body {
+    background: purple;
+  }
+} */
+
+/* typography */
+
+h1 {
+  font-size: 3rem;
+  color: #212614;
+  text-align: center;
+}
+
+h1 span {
+  color: #b7832f;
+}
+
+p {
+  top: 0;
+}
+
+/* layout */
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 95%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+.col-1 {
+  width: 20%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.col-bg {
+  background: #212614;
+  padding: 0.5em;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+  }
+}
